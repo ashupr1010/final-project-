@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        thead > tr > td {
+            position: sticky;
+            top: 0;
+            font-size: 40px;
+        }
+
+        body {
+            background-color: rgb(246, 214, 214);
+            height: 1600px;
+        }
+
+        .button {
+            background-color: #F1EAFF;
+            color: rgb(227, 101, 29);
+            border: 2px rgb(227, 101, 29) solid;
+            border-radius: 5px;
+        }
+
+        .b {
+            background-color: rgb(227, 101, 29);
+            color: white;
+            text-shadow: black;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        thead > tr {
+            font-size: 30px;
+        }
+
+        tbody > tr > :nth-child(1) {
+            background-color: rgb(241, 234, 255);
+        }
+
+        tbody > tr > :nth-child(2) {
+            background-color: #E5D4FF;
+        }
+
+        tbody > tr > :nth-child(3) {
+            background-color: #DCBFFF;
+        }
+
+        tbody > tr > :nth-child(4) {
+            background-color: #D0A2F7;
+        }
+
+        table {
+            table-layout: fixed;
+            width: 1400px;
+            margin-left: 100px;
+            box-shadow: black;
+        }
+
+        .c {
+            border-color: rgb(246, 214, 214);
+            position: relative;
+        }
+
+        span {
+            content: "\2713";
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+           
+        }
+
+        .outer-box {
+            width: calc(30% - 20px);
+            padding: 20px;
+            margin: 10px;
+            background-color: #f4f2f2;
+            border: 1px solid #000;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .sticky-box {
+            background-color: lightblue;
+            padding: 20px;
+            width: calc(100% - 12px);
+            margin: 6px;
+            position: sticky;
+            top: 0;
+            border-bottom: 1px solid #000;
+        }
+
+      .c{
+       font-size:30px ;
+      }
+      .d
+      {
+        font-size: 50px ;
+      }
+      .e
+      {
+
+    font-size: 20px ;  }
+    header {
+        background-color: #DCBFFF;
+        color: rgb(0, 0, 0);
+        padding: 10px 0;
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5px auto;
+        padding: 0 20px;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #d76c0f;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+    }
+
+    .nav-links li {
+        margin-right: 20px;
+    }
+
+    .nav-links a {
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .nav-links a:hover {
+        background-color: #40b736;
+        border-radius: 4px;
+        color: white;
+    }
+       
+        
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                 BEST OFF
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="course.html">course</a></li>
+                <li><a href="gallary.html">gallary</a></li>
+                <li><a href="pricing.html">pricing</a></li>
+                <li><a href="login.html">login</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<center>
+    <h1>There is nothing</h1>
+</center>
+<div class="container" id="container">
+    <div class="outer-box">
+        <div class="c">Basic</div> <br>
+     <div class="d"> <center><h3>$0</h3></center></div>  
+    <div class="e">   <center><br>Always free</center></div>  
+        <hr>
+        <center>
+         learning something new with basic access <br><br></center>
+      <center>  <a class="button" href="http://127.0.0.1:5501/5.html" taget="_blank">sign
+            up </a></center>
+
+    </div>
+    <div class="outer-box"> <div class="c">Plus</div> <br>
+    <div class="d"> <center>$11.99/mo Billed annually or <br> $ 14.99 billed monthly</center><hr></div>  
+   <div class="e">   <center><br>Build in-demand technical skills for work or a personal project</center></div>  
+       <hr>
+       <center>
+        Everything in Basic and more <br><br></center>
+     <center>       <td bgcolor="#DCBFFF">plus <br><a class="button" href="" target="_blank">Try plus for free</a></td> </a></center></div>
+    
+           <div class="outer-box">
+        <div class="c">Basic</div> <br>
+        <div class="d"> <center>$15.99/month <br>Billed annually
+            or $19.99 billed monthly </center></div>  
+       <div class="e">   <center><br>Everything in Plus and more</center></div>  
+           <hr>
+           <center>
+            learning something new with basic access <br><br></center>
+         <center>  <a class="button" href="http://127.0.0.1:5501/5.html" taget="_blank">try pro for free
+               </a></center>
+    </div>
+</div>
+
+<table border="1px" cellspacing="0px" cellpadding="20px" width="200px">
+
+    <thead>
+    <tr>
+        <td bgcolor="" class="c">Feature <br></td>>
+        <td bgcolor=" #E5D4FF">Basic<br><div><a class="button" href="http://127.0.0.1:5501/5.html" taget="_blank">sign
+                    up </a></div></td>
+        <td bgcolor="#DCBFFF">plus <br><a class="button" href="" target="_blank">Try plus for free</a></td>
+        <td bgcolor="#D0A2F7">Pro <br> <a class="button b" href="" target="_blank"> Try pro for free</a></td> </td>
+    </tr>
+
+
+    </thead>
+    <tbody>
+    <tr>
+        <td colspan="4"><h4>Start learning</h4></td>
+
+
+    </tr>
+    <tr>
+        <td>Basic access to free courses </td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+    <tr>
+        <td>Community support</td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+    <tr>
+        <td>Learning resources </td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+    <tr>
+        <td>Practice on our mobile app </td>
+        <td>limited</td>
+        <td>unlimited</td>
+        <td>unlimited</td>
+
+    </tr>
+    <tr>
+        <td>all courses</td>
+        <td>-</td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+    <tr>
+        <td>quizzes</td>
+        <td>-</td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+    <tr>
+        <td>persionalized practice</td>
+        <td>-</td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+    </tr>
+    <tr>
+        <td colspan="4">Build your skill</td>
+    </tr>
+    <tr>
+        <td>
+            Skill paths </td>
+        <td>-</td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+    <tr>
+        <td>Real-world projects </td>
+        <td>-</td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+    <tr>
+        <td>Certificates of completion </td>
+        <td>-</td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+
+    <tr >
+        <td colspan="4">Get AI assistance</td>
+    </tr>
+    <tr>
+        <td>Code explanations </td>
+        <td>-</td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+    <tr>
+        <td>Error explanations </td>
+        <td>-</td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+    <tr>
+        <td>Project hints </td>
+        <td>-</td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+    <tr>
+        <td>Job readiness checker</td>
+        <td>-</td>
+        <td>-</td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+    <tr>
+        <td colspan="4"></td>
+    </tr>
+    <tr>
+        <td>Career path</td>
+        <td>-</td>
+        <td>-</td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+    <tr>
+        <td>Job readiness checker</td>
+        <td>-</td>
+        <td>-</td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+    <tr>
+        <td>Job readiness checker</td>
+        <td>-</td>
+        <td>-</td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+    <tr>
+        <td>Job readiness checker</td>
+        <td>-</td>
+        <td>-</td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+    <tr>
+        <td>Job readiness checker</td>
+        <td>-</td>
+        <td>-</td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+    <tr>
+        <td>Job readiness checker</td>
+        <td>-</td>
+        <td>-</td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+    <tr>
+        <td>Job readiness checker</td>
+        <td>-</td>
+        <td>-</td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+    <tr>
+        <td>Job readiness checker</td>
+        <td>-</td>
+        <td>-</td>
+        <td><span style="font-size: 20px;">&#10003;</span></td>
+
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
